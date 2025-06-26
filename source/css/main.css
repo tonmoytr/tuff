@@ -239,7 +239,8 @@ header.active {
   z-index: 1;
 }
 .header_container .logo img {
-  height: 1.625rem;
+  height: 3.625rem;
+  border-radius: 50%;
 }
 .header_container .right_action {
   display: -webkit-box;
@@ -831,7 +832,7 @@ header.active {
     color-stop(17.09%, #ffda8b),
     color-stop(118.68%, #cc9e5a)
   );
-  background: linear-gradient(0deg, #ffda8b 17.09%, #cc9e5a 118.68%);
+  background: linear-gradient(0deg, #cc9e5a 17.09%, #ffda8b 118.68%);
   position: relative;
   overflow: hidden;
 }
@@ -871,7 +872,9 @@ header.active {
   line-height: 1.95rem;
   max-width: 42rem;
   width: 100%;
+  /* -webkit-text-stroke: 1px black; */
 }
+
 .sn_about_content .header {
   display: -webkit-box;
   display: -ms-flexbox;
