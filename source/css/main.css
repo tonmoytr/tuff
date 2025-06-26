@@ -1136,8 +1136,9 @@ header.active {
 }
 
 .sn_tokenomics {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-    url(../img/star.jpg);
+  background: #cc9e5a;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(../img/star.jpg); */
   background-size: 90rem;
   -webkit-animation: sn_tokenomics_content 20s linear infinite;
   animation: sn_tokenomics_content 20s linear infinite;
